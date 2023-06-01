@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
+img {
+    border-radius: 50%;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url('	https://i.pinimg.com/originals/77/fe/83/77fe83d7437379d463c966d4edada236.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.container {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15%;
+    
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Common Pixel', sans-serif;
+    -webkit-font-smoothing : none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+  }
+
+img.container {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-5px); }
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-5px); }
+}
